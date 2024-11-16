@@ -22,4 +22,4 @@ JavaScript for interactive features.
 
 jQuery for simplified DOM manipulation and effects.
 
-**Demo**🚀
+**Demo**🚀  https://irfanblogger.netlify.app/
