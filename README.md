@@ -1,4 +1,6 @@
 # irfanBlogPage
+**Demo**🚀  https://irfanblogger.netlify.app/
+
 Responsive Blog Page 🌐
 A modern and visually appealing blog page built using HTML, CSS, JavaScript, and jQuery. This project features a responsive design to ensure seamless viewing across devices, offering an engaging and user-friendly reading experience.
 
@@ -22,4 +24,4 @@ JavaScript for interactive features.
 
 jQuery for simplified DOM manipulation and effects.
 
-**Demo**🚀  https://irfanblogger.netlify.app/
+
