@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+    <link rel="stylesheet" href="css/newpoststyle.css">
+</head>
+<body>
+
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">Blog<span>Page</span></a>
+        <!-- Login Btn -->
+        <a href="index.html" class="login">Back Home</a>
+        
+    </div>
+    </header>
+
+    <div class="container">
+        <br>
+        <br>
+        
+        <h1>Create New Blog</h1>
+        <form>
+            <label for="profile_photo">Blog Image:</label>
+            <input type="file" id="blog_image" name="blog_image" accept="image/*" required>
+             <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <br>
+
+            <label for="blog_title">Blog Title:</label>
+            <input type="text" id="blog_title" name="blog_title" required>
+
+            <label for="description">Blog Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <label for="blog_type">Blog Type:</label>
+            <select id="blog_type" name="blog_type" required>
+                <option value="personal">Nature</option>
+                <option value="travel">Science</option>
+                <option value="food">Education</option>
+                <option value="technology">Technology</option>
+                
+            </select>
+
+            <label for="blog_content">Blog Content:</label>
+            <div id="content_boxes">
+                <div class="content_box">
+                    <input type="text" class="content_heading" placeholder="Heading">
+                    <textarea class="content_paragraph" rows="4" placeholder="Enter your paragraph"></textarea>
+                    <label><input type="checkbox" class="bold_heading"> Bold Heading</label>
+                    <!-- <button type="button" class="increase_text">Increase Text Size</button> -->
+                    <button type="button" class="remove_box">Remove</button>
+                </div>
+            </div>
+            <button type="button" id="add_content_box">Add More Content Box</button>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
